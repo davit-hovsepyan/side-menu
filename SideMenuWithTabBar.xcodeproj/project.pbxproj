@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF644D1D2821A89100031A3C /* FirstViewControole.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF644D1C2821A89100031A3C /* FirstViewControole.swift */; };
+		FF644D1F2821A8AB00031A3C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF644D1E2821A8AB00031A3C /* SecondViewController.swift */; };
+		FF644D212821A8C300031A3C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF644D202821A8C300031A3C /* ThirdViewController.swift */; };
+		FF644D242821A8D600031A3C /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF644D222821A8D600031A3C /* MyTableViewCell.swift */; };
+		FF644D252821A8D600031A3C /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF644D232821A8D600031A3C /* MyTableViewCell.xib */; };
+		FF644D272821A9D900031A3C /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF644D262821A9D900031A3C /* File2.swift */; };
+		FF644D292822D4F400031A3C /* AddPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF644D282822D4F400031A3C /* AddPerson.swift */; };
+		FF644D2B2822D60200031A3C /* MyPersons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF644D2A2822D60200031A3C /* MyPersons.swift */; };
 		FFB892842821945800584B7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB892832821945800584B7C /* AppDelegate.swift */; };
 		FFB892862821945800584B7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB892852821945800584B7C /* SceneDelegate.swift */; };
 		FFB892882821945800584B7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB892872821945800584B7C /* ViewController.swift */; };
@@ -16,6 +24,8 @@
 		FFB8929B2821945B00584B7C /* SideMenuWithTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8929A2821945B00584B7C /* SideMenuWithTabBarTests.swift */; };
 		FFB892A52821945B00584B7C /* SideMenuWithTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB892A42821945B00584B7C /* SideMenuWithTabBarUITests.swift */; };
 		FFB892A72821945B00584B7C /* SideMenuWithTabBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB892A62821945B00584B7C /* SideMenuWithTabBarUITestsLaunchTests.swift */; };
+		FFB892B4282199CE00584B7C /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB892B3282199CE00584B7C /* TabBar.swift */; };
+		FFB892B62821A38F00584B7C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB892B52821A38F00584B7C /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF644D1C2821A89100031A3C /* FirstViewControole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewControole.swift; sourceTree = "<group>"; };
+		FF644D1E2821A8AB00031A3C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FF644D202821A8C300031A3C /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		FF644D222821A8D600031A3C /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		FF644D232821A8D600031A3C /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		FF644D262821A9D900031A3C /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
+		FF644D282822D4F400031A3C /* AddPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPerson.swift; sourceTree = "<group>"; };
+		FF644D2A2822D60200031A3C /* MyPersons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPersons.swift; sourceTree = "<group>"; };
 		FFB892802821945800584B7C /* SideMenuWithTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenuWithTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB892832821945800584B7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFB892852821945800584B7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,8 @@
 		FFB892A02821945B00584B7C /* SideMenuWithTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenuWithTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB892A42821945B00584B7C /* SideMenuWithTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuWithTabBarUITests.swift; sourceTree = "<group>"; };
 		FFB892A62821945B00584B7C /* SideMenuWithTabBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuWithTabBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFB892B3282199CE00584B7C /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		FFB892B52821A38F00584B7C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +122,17 @@
 				FFB892832821945800584B7C /* AppDelegate.swift */,
 				FFB892852821945800584B7C /* SceneDelegate.swift */,
 				FFB892872821945800584B7C /* ViewController.swift */,
+				FF644D1C2821A89100031A3C /* FirstViewControole.swift */,
+				FF644D1E2821A8AB00031A3C /* SecondViewController.swift */,
+				FF644D202821A8C300031A3C /* ThirdViewController.swift */,
+				FF644D222821A8D600031A3C /* MyTableViewCell.swift */,
+				FF644D262821A9D900031A3C /* File2.swift */,
+				FF644D232821A8D600031A3C /* MyTableViewCell.xib */,
 				FFB892892821945800584B7C /* Main.storyboard */,
+				FF644D282822D4F400031A3C /* AddPerson.swift */,
+				FF644D2A2822D60200031A3C /* MyPersons.swift */,
+				FFB892B52821A38F00584B7C /* File.swift */,
+				FFB892B3282199CE00584B7C /* TabBar.swift */,
 				FFB8928C2821945A00584B7C /* Assets.xcassets */,
 				FFB8928E2821945A00584B7C /* LaunchScreen.storyboard */,
 				FFB892912821945A00584B7C /* Info.plist */,
@@ -232,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFB892902821945A00584B7C /* LaunchScreen.storyboard in Resources */,
+				FF644D252821A8D600031A3C /* MyTableViewCell.xib in Resources */,
 				FFB8928D2821945A00584B7C /* Assets.xcassets in Resources */,
 				FFB8928B2821945800584B7C /* Main.storyboard in Resources */,
 			);
@@ -258,9 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB892B62821A38F00584B7C /* File.swift in Sources */,
 				FFB892882821945800584B7C /* ViewController.swift in Sources */,
 				FFB892842821945800584B7C /* AppDelegate.swift in Sources */,
 				FFB892862821945800584B7C /* SceneDelegate.swift in Sources */,
+				FF644D272821A9D900031A3C /* File2.swift in Sources */,
+				FF644D1F2821A8AB00031A3C /* SecondViewController.swift in Sources */,
+				FF644D242821A8D600031A3C /* MyTableViewCell.swift in Sources */,
+				FFB892B4282199CE00584B7C /* TabBar.swift in Sources */,
+				FF644D292822D4F400031A3C /* AddPerson.swift in Sources */,
+				FF644D212821A8C300031A3C /* ThirdViewController.swift in Sources */,
+				FF644D2B2822D60200031A3C /* MyPersons.swift in Sources */,
+				FF644D1D2821A89100031A3C /* FirstViewControole.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
