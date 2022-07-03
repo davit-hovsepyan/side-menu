@@ -34,11 +34,12 @@ extension FirstViewController: UITableViewDelegate,UITableViewDataSource{
         return PersonName.person.count
 
     }
+ 
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MyTableViewCell", for: indexPath) as! MyTableViewCell
         let p = PersonName.person[indexPath.row]
-        cell.person = p 
+        cell.person = p
         return cell
     }
     
